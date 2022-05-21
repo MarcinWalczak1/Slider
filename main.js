@@ -12,3 +12,6 @@ const articles = [
         image: 'https://cdn.pixabay.com/photo/2021/05/12/10/09/common-blue-6247877_960_720.jpg',
     }
 ]
+const img = document.querySelector('img');
+const h1 = document.querySelector('h1');
+const dots = [...document.querySelectorAll('.dots span')];
