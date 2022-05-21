@@ -20,3 +20,14 @@ let active = 0;
 
 img.src = articles[active].image;
 h1.textContent = articles[active].title;
+
+const changeSlide = ()=>{
+    active++;
+
+    if(active === articles.length){
+        active = 0;
+    }
+    img.src = articles[active].image;
+    h1.textContent = articles[active].title;
+    changeDot()
+}
