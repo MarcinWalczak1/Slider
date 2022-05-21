@@ -15,3 +15,8 @@ const articles = [
 const img = document.querySelector('img');
 const h1 = document.querySelector('h1');
 const dots = [...document.querySelectorAll('.dots span')];
+
+let active = 0;
+
+img.src = articles[active].image;
+h1.textContent = articles[active].title;
